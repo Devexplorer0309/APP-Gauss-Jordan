@@ -195,7 +195,7 @@ class SistemaEcuacionesGUI:
         self.resolver_button = ttk.Button(master, text="Resolver Sistema (Gauss-Jordan)", command=self.resolver_sistema)
         self.resolver_button.grid(row=4, column=0, columnspan=2, pady=10)
 
-        self.matriz_resuelta_label = ttk.Label(master, text="Matriz en Forma Escalonada Reducida (Gauss-Jordan):")
+        self.matriz_resuelta_label = ttk.Label(master, text="Matriz:")
         self.matriz_resuelta_label.grid(row=5, column=0, padx=10, pady=(10, 2), sticky="w")
         self.matriz_text = tk.Text(master, width=70, height=7, bg="#3B4252", fg="#ECEFF4", insertbackground="#ECEFF4", relief="flat", font=('Consolas', 10), highlightthickness=1, highlightbackground="#4C566A", highlightcolor="#5E81AC", wrap=tk.NONE)
         self.matriz_text.grid(row=6, column=0, columnspan=2, padx=10, pady=5, sticky="ew")
